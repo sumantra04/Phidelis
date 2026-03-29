@@ -9,7 +9,7 @@ const TechnologyPowers = () => {
         </h2>
 
         <div className="flex flex-col lg:flex-row gap-6 items-stretch">
-          
+
           {/* Left Column - Purple Box */}
           <div className="w-full lg:w-[38%] bg-[#762D85] rounded-[16px] p-8 md:p-10 flex flex-col justify-between shadow-md min-h-[440px]">
             <div>
@@ -20,7 +20,7 @@ const TechnologyPowers = () => {
                 Continuous monitoring and analytics provide control, foresight, and measurable transparency.
               </p>
             </div>
-            
+
             <button className="mt-12 self-start bg-white text-[#24346D] rounded-[32px] px-8 py-3 font-['Inter'] font-medium text-[15px] hover:bg-gray-100 transition-colors shadow-sm">
               Learn more
             </button>
@@ -28,11 +28,11 @@ const TechnologyPowers = () => {
 
           {/* Right Column - Image */}
           <div className="w-full lg:w-[62%] rounded-[16px] overflow-hidden shadow-md min-h-[440px]">
-             <img 
-               src="/homePage/technologyPowerCalrity.jpg" 
-               alt="Technology Powers Clarity" 
-               className="w-full h-full object-cover"
-             />
+            <img
+              src="/homePage/technologyPowerCalrity.jpg"
+              alt="Technology Powers Clarity"
+              className="w-full h-full object-cover"
+            />
           </div>
 
         </div>

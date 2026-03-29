@@ -4,7 +4,7 @@ const PartnerWithUs = () => {
   return (
     <section className="relative w-full py-24 px-6 md:px-[60px] lg:px-[120px]">
       {/* Background Image Setup */}
-      <div 
+      <div
         className="absolute inset-0 -z-20"
         style={{
           backgroundImage: "url('/homePage/heroImg.jpg')",
@@ -17,17 +17,17 @@ const PartnerWithUs = () => {
       <div className="absolute inset-0 bg-[#0B1325]/85 -z-10" />
 
       <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row gap-16 lg:gap-24 items-center">
-        
+
         {/* Left Column - Text & Info */}
         <div className="w-full lg:w-1/2 flex flex-col text-white pt-8">
           <h2 className="font-['Inter'] font-bold text-[36px] md:text-[46px] tracking-tight mb-8">
             Partner with us
           </h2>
-          
+
           <p className="font-['Inter'] font-normal text-[15px] md:text-[16px] leading-[28px] opacity-90 max-w-[540px] mb-12">
             At Phidelis Capital, every decision is crafted towards your objectives — guided by research-led insights and technology-supported intelligence, delivered with clarity and purpose.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-12 sm:gap-20">
             {/* Office Info */}
             <div className="flex flex-col gap-[10px]">
@@ -61,7 +61,7 @@ const PartnerWithUs = () => {
             <h3 className="text-[#24346D] font-['Inter'] font-bold text-[28px] md:text-[32px] tracking-tight mb-10">
               Get Started
             </h3>
-            
+
             <form className="flex flex-col gap-10">
               <div className="flex flex-col md:flex-row gap-10">
                 {/* First Name */}
@@ -69,9 +69,9 @@ const PartnerWithUs = () => {
                   <label className="text-[#64748B] font-['Inter'] font-bold text-[12px] md:text-[13px] tracking-tight">
                     First Name
                   </label>
-                  <input 
+                  <input
                     type="text"
-                    defaultValue="|" 
+                    defaultValue="|"
                     className="border-b border-gray-300 py-1 focus:outline-none focus:border-[#24346D] text-gray-400 font-normal bg-transparent text-[15px]"
                   />
                 </div>
@@ -80,8 +80,8 @@ const PartnerWithUs = () => {
                   <label className="text-[#24346D] font-['Inter'] font-bold text-[12px] md:text-[13px] tracking-tight">
                     Last Name
                   </label>
-                  <input 
-                    type="text" 
+                  <input
+                    type="text"
                     className="border-b border-[#24346D]/30 py-1 focus:outline-none focus:border-[#24346D] text-[#24346D] font-medium bg-transparent text-[15px]"
                   />
                 </div>
@@ -93,8 +93,8 @@ const PartnerWithUs = () => {
                   <label className="text-[#64748B] font-['Inter'] font-bold text-[12px] md:text-[13px] tracking-tight">
                     Email
                   </label>
-                  <input 
-                    type="email" 
+                  <input
+                    type="email"
                     className="border-b border-gray-300 py-1 focus:outline-none focus:border-[#24346D] text-[#24346D] font-medium bg-transparent text-[15px]"
                   />
                 </div>
@@ -103,8 +103,8 @@ const PartnerWithUs = () => {
                   <label className="text-[#24346D] font-['Inter'] font-bold text-[12px] md:text-[13px] tracking-tight">
                     Phone Number
                   </label>
-                  <input 
-                    type="tel" 
+                  <input
+                    type="tel"
                     defaultValue="+1 012 3456 789"
                     className="border-[#24346D]/40 py-1 focus:outline-none border-b-2 focus:border-[#24346D] text-[#24346D] font-bold text-[15px] bg-transparent"
                   />
@@ -116,8 +116,8 @@ const PartnerWithUs = () => {
                 <label className="text-[#64748B] font-['Inter'] font-bold text-[12px] md:text-[13px] tracking-tight">
                   Message
                 </label>
-                <input 
-                  type="text" 
+                <input
+                  type="text"
                   placeholder="Write your message.."
                   className="border-b border-gray-300 py-1 focus:outline-none focus:border-[#24346D] text-[#24346D] font-medium placeholder:text-[#64748B] bg-transparent text-[15px]"
                 />
@@ -125,7 +125,7 @@ const PartnerWithUs = () => {
 
               {/* Submit Button */}
               <div className="flex justify-end mt-4">
-                <button 
+                <button
                   type="button"
                   className="bg-[#8B3A8B] text-white rounded-[32px] px-10 py-3 font-['Inter'] font-medium text-[15px] hover:bg-[#722A72] transition-colors shadow-sm"
                 >

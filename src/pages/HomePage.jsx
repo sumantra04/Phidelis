@@ -14,9 +14,13 @@ const HomePage = () => {
       <Navbar />
       <HomeHero />
       <HowWeCreateValue />
-      <PersonalisedSolutions />
+      <div id="solutions">
+        <PersonalisedSolutions />
+      </div>
       <SeasonedExperts />
-      <TechnologyPowers />
+      <div id="technology">
+        <TechnologyPowers />
+      </div>
       <PartnerWithUs />
       <Footer />
     </>
