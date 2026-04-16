@@ -37,9 +37,9 @@ const PartnerWithUs = () => {
                 Office
               </h3>
               <div className="font-['Inter'] font-medium text-[15px] leading-[26px] opacity-90">
-                <p>12 Marina View,</p>
-                <p>#11-21, Asia Square 2,</p>
-                <p>Singapore, 018961</p>
+                <p>8 Marina View,</p>
+                <p>#43-45, Asia Square 1,</p>
+                <p>Singapore 018960</p>
               </div>
             </div>
 
@@ -51,7 +51,7 @@ const PartnerWithUs = () => {
               <div className="font-['Inter'] font-medium text-[15px] leading-[26px] opacity-90">
                 <p>management@phideliscapital.com</p>
                 <p>careers@phideliscapital.com</p>
-                <p>+65 1234 5678</p>
+                <p>+65 6485 4142</p>
               </div>
             </div>
           </div>
@@ -73,7 +73,6 @@ const PartnerWithUs = () => {
                   </label>
                   <input
                     type="text"
-                    defaultValue="|"
                     className="border-b border-gray-300 py-1 focus:outline-none focus:border-[#24346D] text-gray-400 font-normal bg-transparent text-[15px]"
                   />
                 </div>
@@ -107,8 +106,7 @@ const PartnerWithUs = () => {
                   </label>
                   <input
                     type="tel"
-                    defaultValue="+1 012 3456 789"
-                    className="border-[#24346D]/40 py-1 focus:outline-none border-b-2 focus:border-[#24346D] text-[#24346D] font-bold text-[15px] bg-transparent"
+                    className="border-b border-gray-300 py-1 focus:outline-none focus:border-[#24346D] text-[#24346D] font-medium bg-transparent text-[15px]"
                   />
                 </div>
               </div>
