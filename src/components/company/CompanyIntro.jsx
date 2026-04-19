@@ -34,10 +34,10 @@ const CompanyIntro = () => {
 
   return (
     <section ref={containerRef} className="w-full flex flex-col-reverse lg:flex-row justify-between overflow-hidden">
-      <div className="w-full bg-white py-10 lg:py-20 px-6 md:px-20 overflow-hidden flex flex-col md:flex-row rounded-[16px] shadow-sm">
+      <div className="w-full bg-white py-10 lg:py-20 px-6 md:px-20 flex flex-col md:flex-row rounded-[16px] shadow-sm overflow-hidden">
         
         {/* Left Side - Gradient and Text */}
-        <div className="intro-left w-full md:w-[45%] lg:w-[42%] bg-[url('/common/gradient-Bg.png')] bg-cover bg-center p-10 md:p-14 lg:p-[72px] flex flex-col justify-center">
+        <div className="intro-left w-full md:w-[45%] lg:w-[42%] bg-[url('/common/gradient-Bg.png')] bg-cover bg-center p-10 md:p-14 lg:p-[72px] flex flex-col justify-center md:rounded-l-[16px]">
           <h2 className="text-white font-['Inter'] font-semibold text-[22px] md:text-[26px] lg:text-[28px] leading-[1.4] tracking-tight mb-8">
             At Phidelis Capital, every decision is crafted towards your objectives.
           </h2>
@@ -48,7 +48,7 @@ const CompanyIntro = () => {
         
         {/* Right Side - Image */}
         <div 
-          className="intro-right w-full md:w-[55%] lg:w-[58%] min-h-[350px] md:min-h-[480px] bg-cover bg-center"
+          className="intro-right w-full md:w-[55%] lg:w-[58%] min-h-[350px] md:min-h-[480px] bg-cover bg-center md:rounded-r-[16px]"
           style={{ backgroundImage: "url('/company/intro-image.jpg')" }}
         >
         </div>
@@ -59,4 +59,3 @@ const CompanyIntro = () => {
 };
 
 export default CompanyIntro;
-
